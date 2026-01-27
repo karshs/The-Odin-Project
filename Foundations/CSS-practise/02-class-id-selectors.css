@@ -1,0 +1,26 @@
+/* Styling for all elements with the 'odd' class */
+.odd {
+    background-color: #ffcccc;
+    /* Light red/pink HEX */
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* Specific ID for the second element */
+#number-two {
+    color: #0000ff;
+    /* Blue HEX */
+    font-size: 36px;
+}
+
+/* Multiple class approach: adding extra size to the third element */
+.cooler {
+    font-size: 24px;
+}
+
+/* Specific ID for the fourth element */
+#number-four {
+    background-color: #ccffcc;
+    /* Light green HEX */
+    font-size: 24px;
+    font-weight: bold;
+}

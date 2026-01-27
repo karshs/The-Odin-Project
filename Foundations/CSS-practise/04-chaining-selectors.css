@@ -1,0 +1,13 @@
+/* Chained Selector: Targets the img with BOTH 'avatar' AND 'proportioned' */
+.avatar.proportioned {
+    width: 300px;
+    /* 'auto' tells the browser to calculate height based on original proportions */
+    height: auto;
+}
+
+/* Chained Selector: Targets the img with BOTH 'avatar' AND 'distorted' */
+.avatar.distorted {
+    width: 200px;
+    /* Twice as big as width (200 * 2 = 400) */
+    height: 400px;
+}
