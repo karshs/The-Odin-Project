@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --- THE PARAGRAPHS --- */
+/* Issue: .para was below .small-para, making all paras 22px. 
+   Solution: Move .para above .small-para so the "small" one can override it. */
+
+.para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.small-para {
+    font-size: 14px;
+}
+
+/* --- THE BUTTONS --- */
+/* Issue: .button was below .confirm, making the background white again.
+   Solution: Move the general .button style ABOVE the specific .confirm/.cancel styles. */
+
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+/* --- THE DIVS --- */
+/* Issue: div.text is MORE specific than .child (Type + Class beats just Class).
+   Solution: Make the child selector more specific or move it. 
+   Better Solution: Use chaining "div.text.child" to ensure it wins. */
+
+div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+}
+
+div.text.child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+}
