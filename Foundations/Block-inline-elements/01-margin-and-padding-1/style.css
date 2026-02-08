@@ -1,0 +1,31 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.one {
+    background: pink;
+    border: 3px solid blue;
+    /* Requirement: 32px between text and border (Padding) */
+    /* Requirement: 12px between it and any other element (Margin) */
+    padding: 32px;
+    margin: 12px;
+}
+
+.two {
+    background: lightblue;
+    border: 3px solid purple;
+    /* Requirement: 48px gap between Div Two and Div Three */
+    margin-bottom: 48px;
+}
+
+.three {
+    background: peachpuff;
+    border: 3px solid brown;
+    width: 200px;
+    /* Requirement: 32px between text and border (Padding) */
+    /* Requirement: Align to the right using margin */
+    /* Tip: margin-left: auto pushes the element to the right */
+    padding: 32px;
+    margin-left: auto;
+}
