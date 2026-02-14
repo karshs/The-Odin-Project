@@ -28,5 +28,5 @@ I am currently mastering the "Brain" of the web. My goal is to bridge the gap be
 
 ## 📂 Project Highlights
 
-* **[Landing Page](https://karshs.github.io/Foundations/Project-Landing-page/index.html):** A fully responsive, Flexbox-based site using professional design principles.
+* **[Landing Page](https://karshs.github.io/The-Odin-Project/Foundations/Project-Landing-page/index.html):** A fully responsive, Flexbox-based site using professional design principles.
 * **[JavaScript Exercises](https://github.com/karshs/javascript-exercises):** A dedicated workbook for mastering JS logic through automated testing.
