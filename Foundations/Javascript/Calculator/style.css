@@ -1,0 +1,50 @@
+/* style.css */
+.calculator {
+    width: 320px;
+    margin: 50px auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#display {
+    background-color: #222;
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: right;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 25%;
+    /* 4 buttons per row */
+    height: 60px;
+    font-size: 1.2rem;
+    border: 1px solid #ddd;
+}
+
+.zero {
+    width: 50%;
+}
+
+/* Special case for 0 */
+.operator {
+    background-color: #f39c12;
+    color: white;
+}
+
+.equals {
+    background-color: #27ae60;
+    color: white;
+}
+
+.clear {
+    background-color: #e74c3c;
+    color: white;
+    width: 75%;
+}
