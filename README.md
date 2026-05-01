@@ -2,13 +2,21 @@
 
 My professional repository for documenting progress through The Odin Project curriculum and my transition into Backend Engineering.
 
-## 🚀 Current Focus: JavaScript Foundations & Logic
+## 🚀 Current Focus: JavaScript DOM & Event-Driven Logic
 
-I am currently mastering the "Brain" of the web. My goal is to bridge the gap between frontend implementation and backend logic-building.
+I am currently bridging the gap between static logic and dynamic user interfaces, focusing on how JavaScript manages state and browser events.
 
 ### 📈 Progress Logs
 
-* **February 2025:** * **CSS Mastery:** Completed the "Landing Page" project, focusing on complex Flexbox layouts and CSS variable architecture.
+March 2026:
+
+DOM & Events: Mastered dynamic element creation and manipulation. Built a "Shopping List" CRUD interface.
+
+Rock Paper Scissors UI: Refactored a console-based game into a fully interactive UI. Implemented event listeners and real-time score tracking.
+
+Git Workflow: Mastered professional branching strategies (git checkout -b), feature merging, and remote branch management.
+
+* **February 2026:** * **CSS Mastery:** Completed the "Landing Page" project, focusing on complex Flexbox layouts and CSS variable architecture.
 * **Environment Setup:** Configured a professional local development environment using **Node.js**, **NPM**, and **Jest** for Test-Driven Development (TDD).
 * **JS Fundamentals:** Completed initial logic exercises (01-05), mastering string manipulation, basic math operations, and module exports in Node.js.
 
